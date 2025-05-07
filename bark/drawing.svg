@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="bitmap.svg"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.49583333"
+     inkscape:cx="960"
+     inkscape:cy="540.5042"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fd0000;stroke-width:12.98;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="817.81512"
+       cy="543.52942"
+       r="261.17648" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#fd0000;stroke-width:12.98;stroke-dasharray:none;stroke-opacity:1"
+       id="path3"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="314.62186"
+       sodipodi:cy="300.50421"
+       sodipodi:r1="257.21204"
+       sodipodi:r2="256.18271"
+       sodipodi:arg1="-0.49872094"
+       sodipodi:arg2="-0.49237629"
+       inkscape:rounded="0.28"
+       inkscape:randomized="0"
+       d="m 540.5042,177.47901 c 0.53923,0.0156 0.15123,1.46248 -0.13106,1.92219 -65.02348,105.89266 -166.92337,272.46751 -232.1495,378.23546 -0.28317,0.45917 -1.34217,-0.60027 -1.59914,-1.0746 C 247.43051,447.30375 154.1224,275.76843 95.137736,166.39697 c -0.25607,-0.47482 1.190932,-0.86221 1.730199,-0.8476 124.217465,3.36566 319.425465,8.32613 443.636265,11.92964 z"
+       inkscape:transform-center-x="-28.589952"
+       inkscape:transform-center-y="0.76716486"
+       transform="matrix(-0.01570716,-0.57788876,0.57788876,-0.01570716,638.05836,729.98799)"
+       inkscape:export-filename="path3.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>
