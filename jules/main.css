@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Moon";
+    src: url("fonts/Moon Light.otf") format("opentype")
+}
+@font-face {
+    font-family: "Moon2";
+    src: url("fonts/Moon2.0-Light.otf") format("opentype")
+}
+@font-face {
+    font-family: "Moon2-bold";
+    src: url("fonts/Moon2.0-Bold.otf") format("opentype")
+}
+@font-face {
+    font-family: "Moon2-reg";
+    src: url("fonts/Moon2.0-Regular.otf") format("opentype")
+}
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("fonts/BAHNSCHRIFT.TTF") format("truetype")
+}
+
+:root{
+    --bg-color: #fff;
+    --bg-color2: #fff;
+    --current-font-color: #000000;
+    --current-font: 'Moon';
+    font: 1.2rem var(--current-font), sans-serif;
+    --left-border:50px;
+    --right-border: 50px;
+    --header:100px;
+    --header-h1-margin: 10px;
+    --header-font-size:3em;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#hero  {
+    display:grid;
+    grid-template-columns:[b1] var(--left-border) [c1]1fr [c2]1fr [c3]1fr [c4]1fr [b2]var(--right-border);
+    grid-template-rows: [header]var(--header) [r1]1fr [r2]1fr [r3]1fr [r4]1fr;
+    height: 100vh;
+
+    width: 100vw;
+& .container{
+    background-image: url("pics/b1.jpeg");
+    object-fit: fill;
+    opacity: .4;
+    grid-area: r1 / b1 / end / end;
+    /*height: max-content;*/
+    }
+}
+#nav-bar{
+    display:grid;
+    grid-column: b1 / end;
+    & .nav-wrapper {
+        display: grid;
+        grid-template-columns:[title]5fr [menu]minmax(75px, 1fr );
+        height: var(--header);
+        width: 100%;
+        background-color: #868daf;
+        position: sticky;
+
+        & h1 {
+            /*position: fixed;*/
+            grid-column: title / end;
+            justify-self: center;
+            align-self: center;
+            margin: var(--header-h1-margin) 0 calc(var(--header-h1-margin) * 2) 0;
+            font-size: var(--header-font-size);
+        }
+    }
+}

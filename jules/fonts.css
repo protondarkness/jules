@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Moon";
+    src: url("fonts/Moon Light.otf") format("opentype")
+}
+@font-face {
+    font-family: "Moon2";
+    src: url("fonts/Moon2.0-Light.otf") format("opentype")
+}
+@font-face {
+    font-family: "Moon2-bold";
+    src: url("fonts/Moon2.0-Bold.otf") format("opentype")
+}
+@font-face {
+    font-family: "Moon2-reg";
+    src: url("fonts/Moon2.0-Regular.otf") format("opentype")
+}
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("fonts/BAHNSCHRIFT.TTF") format("truetype")
+}
